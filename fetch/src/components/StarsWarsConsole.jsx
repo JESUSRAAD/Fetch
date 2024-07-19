@@ -59,6 +59,7 @@ const StarsWarsConsole = () => {
                const  dataFilmSC3PO=await C3POFilms.json()
         setC3POFilm(dataFilmSC3PO)
         return
+        
             })
         }
         catch (error) {
